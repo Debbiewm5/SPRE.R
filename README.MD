@@ -34,9 +34,10 @@ A step by step series of examples that tell you how to get a development env run
 * In Windows:
 	- The simple way is to open the 'R' program
         - Set the R session to the Documents folder or wherever your data is located:
-	- Windows: setwd("~/") Mac: setwd("~/Documents") Linux: setwd("~/Downloads")
+	- Windows: setwd("~/")  Mac: setwd("~/Documents")  Linux: setwd("~/Downloads")
 	- In the console type:
-		setwd("~/") 
+	- Example:
+		setwd("~/") and Enter
 		Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
 	 	source("test191.R") and Enter
 	- Use the Dataset given in 'Dataset' for practice
