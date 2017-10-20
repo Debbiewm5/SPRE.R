@@ -146,7 +146,7 @@ The first fifteen rows of data from the 'change point' for this participant.
 ```
 
 ## Add final data plots in R for Windows and Mac 
-###Treatment prognosis and evaluation can be determined from these plots. 
+Treatment prognosis and evaluation can be determined from these plots. 
 For the first run of the data on your computer, click 'Windows' and last plot number, usually 2. Then under the 'History' tab, click recording. This enables you to see plots next and previous from the next run of the dataset.
 Start with plots 1a), 1b), and 1c), then view plot 2.
 
