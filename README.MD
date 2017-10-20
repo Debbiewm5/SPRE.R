@@ -53,9 +53,9 @@ A step by step series of examples that tell you how to get a development env run
 
 * In Mac:
 	- In the console type:
-		setwd("~/Documents") 
-		Dataset <- read.csv("~/Documents/NameOfYourFile.csv") and Enter
-	        source("test191.R")
+		-setwd("~/Documents") 
+		-Dataset <- read.csv("~/Documents/NameOfYourFile.csv") and Enter
+	        -source("test191.R")
 
 	- The rest of the instructions above are the same.
 
