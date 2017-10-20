@@ -38,7 +38,7 @@ A step by step series of examples that tell you how to get a development env run
 	- Mac: setwd("~/Documents")  
 	- Linux: setwd("~/Downloads")
 
-		- In the console type:
+		- In the Windows console type:
 		- setwd("~/") and Enter
 		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
 		- source("test191.R") and Enter
