@@ -38,13 +38,12 @@ A step by step series of examples that tell you how to get a development env run
 	- Mac: setwd("~/Documents")  
 	- Linux: setwd("~/Downloads")
 
-	- In the console type:
-	- Example:
-	- setwd("~/") and Enter
-	- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
-	- source("test191.R") and Enter
+		- In the console type:
+		- setwd("~/") and Enter
+		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
+		- source("test191.R") and Enter
 
-	- Use the Dataset given in 'Dataset' for practice
+	- Use the Dataset given in 'Dataset' for practice, substitute in NameOfYourFile.csv
 	- The results from the dataset appear in the R console 
 	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the comparative values for the 	  	  	  Weibull predictive curve are printed on the console.
 	
