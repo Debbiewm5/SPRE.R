@@ -34,14 +34,12 @@ A step by step series of examples that tell you how to get a development env run
 * In Windows:
 	- The simple way is to open the 'R' program
         - Set the R session to the Documents folder or wherever your data is located:
-
 	- Windows: setwd("~/") Mac: setwd("~/Documents") Linux: setwd("~/Downloads")
-
 	- In the console type:
 		setwd("~/") 
 		Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
 	 	source("test191.R") and Enter
-
+	- Use the Dataset given in 'Dataset' for practice
 	- The results from the dataset appear in the R console 
 	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the comparative values for the 	  	  	  Weibull predictive curve are printed on the console.
 	
@@ -146,7 +144,7 @@ The first fifteen rows of data from the 'change point' for this participant.
 ```
 
 ## Add final data plots in R for Windows and Mac 
-Treatment prognosis and evaluation can be determined from these plots. 
+### Treatment prognosis and evaluation can be determined from these plots. 
 For the first run of the data on your computer, click 'Windows' and last plot number, usually 2. Then under the 'History' tab, click recording. This enables you to see plots next and previous from the next run of the dataset.
 Start with plots 1a), 1b), and 1c), then view plot 2.
 
