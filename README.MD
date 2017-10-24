@@ -158,7 +158,7 @@ Start with plots 1a), 1b), and 1c), then view plot 2 to analyse the data.
 ### Saving R Plots
 Display the plot and then goto File. Then click 'save as' for options. 
 ### Comparing Participant Plot Data
-	* For only one participant, save the 2 plota and then exit R. This will clear plot data.
+	* For only one participant, save the 2 plots and then exit R. This will clear plot data.
 	* To compare plots, do not exit R but start a new analysis in the console. Then, for example, 4 plots can be directly compared.
 		- In the Windows console type:
 		- setwd("~/") and Enter
