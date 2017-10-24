@@ -43,7 +43,8 @@ A step by step series of examples that tell you how to get a development env run
 		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
 		- source("test191.R") and Enter
 
-	- Use the Dataset given in the file downloaded in 'data' for practice, substitute in NameOfYourFile.csv as... 	
+	- Use the Dataset given in 'Dataset' for practice, substitute in NameOfYourFile.csv
+	- - Use the Dataset given in the file downloaded in 'data' for practice, substitute in NameOfYourFile.csv as... 	
 		- Dataset <- read.csv("~/HEAT_LILLY_Heat.Stat.14_2016.csv")
 	- The results from the dataset appear in the R console 
 	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the comparative values for the 	  	  	  Weibull predictive curve are printed on the console.
@@ -150,8 +151,25 @@ The first fifteen rows of data from the 'change point' for this participant.
 
 ## Add final data plots in R for Windows and Mac 
 ### Treatment prognosis and evaluation can be determined from these plots. 
-For the first run of the data on your computer, click 'Windows' and last plot number, usually 2. Then under the 'History' tab, click recording. This enables you to see plots next and previous from the next run of the dataset.
-Start with plots 1a), 1b), and 1c), then view plot 2.
+For the first run of the data on your computer, click 'Windows' and last plot number, usually 3. Then under the 'Windows' tab, click the next R Graphics device 2 (Active). This enables you to see the previous plot. Plots can be switched in Windows. 
+Start with plots 1a), 1b), and 1c), then view plot 2 to analyse the data.
+
+## Saving and Comparing Participant Plot Data
+### Saving R Plots
+Display the plot and then goto File. Then click 'save as' for options. 
+### Comparing Participant Plot Data
+	* For only one participant, save the 2 plota and then exit R. This will clear plot data.
+	* To compare plots, do not exit R but start a new analysis in the console. Then, for example, 4 plots can be directly compared.
+		- In the Windows console type:
+		- setwd("~/") and Enter
+		- Dataset <- read.csv("~/NameOfFirstFile.csv") and Enter
+		- source("test191.R") and Enter
+
+		- In the Windows console type:
+		- setwd("~/") and Enter
+		- Dataset <- read.csv("~/NameOfAnotherFile.csv") and Enter
+		- source("test191.R") and Enter
+	* All 4 plots will be available for comparison in 'Windows'.
 
 ## Deployment and transforming Excel data
 Additional notes on transforming the data in Excel to analyse in SPRE are given in a Github Wiki.
