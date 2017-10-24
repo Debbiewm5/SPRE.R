@@ -259,7 +259,6 @@ cat("\n")
                 pv <- (signif(pv,digits=2))
 
         par(mfrow = c(1,1), mar=c(5.5,5.2,5.5,3.0))
-        ##dev.set(dev.next())
                 plot(x, main = "Probability for SPRE Predictions \n with
      effective clinical stability(ECS)",
                 xlab = (paste("Prediction & Pvalue from Change Point=",m2,", p=", pv)),
