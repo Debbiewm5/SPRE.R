@@ -31,28 +31,28 @@ A step by step series of examples that tell you how to get a development env run
 * Open the download SPRE.R-master to view files.
 * Open the \data folder, then copy and paste the 2 sample files into your Documents folder. On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
 
-* In Windows:
+* In Windows, Mac and Linux:
 	- Open the 'R' program
         - Set the R session to the Documents folder or wherever your data is located:
 	- Windows: setwd("~/")  
 	- Mac: setwd("~/Documents")  
-	- Linux: setwd("~/Downloads")
+	- Linux: setwd("~/Downloads") - in a Chromebook
 
 		- To Enter Code in the Windows console type:				
 		- setwd("~/") and Enter  
-		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter   
-		- source("test191.R") and Enter  
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter   
+		- source("test192.R") and Enter  
 	
-### Run the EASY WAY in Windows:
+### Run R the EASY WAY from the pull down menu in Windows:
 
 ```
 		- File -> Change dir... -> Documents
-		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter  (This line is typed in the R console)
 		- File -> Source R Code -> test192
 
 	- Use the Dataset given in 'Dataset' for practice, substitute in NameOfYourFile.csv
 	- - Use the Dataset given in the file downloaded in 'data' for practice, substitute in NameOfYourFile.csv as... 	
-		- Dataset <- read.csv("~/HEAT_LILLY_Heat.Stat.14_2016.csv")
+		- Dataset <- read.csv("HEAT_LILLY_Heat.Stat.14_2016.csv")
 	- The results from the dataset appear in the R console 
 	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the probability values for the Weibull predictive curve are printed on the console.        
 	
@@ -70,11 +70,11 @@ A step by step series of examples that tell you how to get a development env run
 		- Dataset <- read.csv("~/Documents/NameOfYourFile.csv") and Enter
 		- source("test191.R")
 
-### Run the EASY WAY in Mac:
+### Run R the EASY WAY from the pull down menu in Mac:
 
 ```
 		- Misc -> Change Working Directory... -> Documents
-		- Dataset <- read.csv("~/Documents/NameOfYourFile.csv") and Enter
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter
 		- File -> Source File... -> test192.R  (or Documents - iCloud)
 
 	- The rest of the instructions above are the same.
@@ -171,7 +171,7 @@ The first fifteen rows of data from the 'change point' for this participant.
 ## Add final data plots in R for Windows and Mac 
 ### Treatment prognosis and evaluation can be determined from these plots. 
 For the first run of the data on your computer, click 'Windows' and last plot number, usually 3. Then under the 'Windows' tab, click the next R Graphics device 2 (Active). This enables you to see the previous plot. Plots can be switched in Windows. 
-Start with plots 1a), 1b), and 1c), then view plot 2 to analyse the data.
+Start with plots 1a), 1b), and 1c) given in plot 2, then view plot 3 to analyse the data in R.
 
 ## Saving and Comparing Participant Plot Data
 ### Saving R Plots
@@ -179,15 +179,15 @@ Display the plot and then goto File. Then click 'save as' for options.
 ### Comparing Participant Plot Data
 	* For only one participant, save the 2 plots and then exit R. This will clear plot data.
 	* To compare plots, do not exit R but start a new analysis in the console. Then, for example, 4 plots can be directly compared.
-		- In the Windows console type:
-		- setwd("~/") and Enter
-		- Dataset <- read.csv("~/NameOfFirstFile.csv") and Enter
-		- source("test191.R") and Enter
+		- In the Windows pull down menu:
+		- File -> Change dir... -> Documents
+		- Dataset <- read.csv("NameOfFirstFile.csv") and Enter  (This line is typed in the R console)
+		- File -> Source R Code -> test192
 
-		- In the Windows console type:
-		- setwd("~/") and Enter
-		- Dataset <- read.csv("~/NameOfAnotherFile.csv") and Enter
-		- source("test191.R") and Enter
+		- In the Windows pull down menu:
+		- File -> Change dir... -> Documents
+		- Dataset <- read.csv("NameOfSecondFile.csv") and Enter  (This line is typed in the R console)
+		- File -> Source R Code -> test192
 	* All 4 plots will be available for comparison in 'Windows'.
 
 ## Deployment and transforming Excel data
