@@ -44,6 +44,8 @@ A step by step series of examples that tell you how to get a development env run
 		- source("test191.R") and Enter  
 	
 ### Run the EASY WAY in Windows:
+
+```
 		- File -> Change dir... -> Documents
 		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
 		- File -> Source R Code -> test192
@@ -58,6 +60,8 @@ A step by step series of examples that tell you how to get a development env run
 	- The 2nd. plot sheet indicates the session number beyond the change point where the participant becomes effectively clinically stable for the 	  	  	  treatment.
 	- The probability for the Weibull CDF used for prediction is given on the console.
 
+```
+
 * In Mac:
 	- To Enter Code in the console type:
 		- setwd("~/Documents") 
@@ -65,12 +69,15 @@ A step by step series of examples that tell you how to get a development env run
 		- source("test191.R")
 
 ### Run the EASY WAY in Mac:
+
+```
 		- Misc -> Change Working Directory... -> Documents
 		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
 		- File -> Source File... -> test192.R  (or Documents - iCloud)
 
 	- The rest of the instructions above are the same.
 
+```
 
 ## Downloaded from 'http://www.github.com/Debbiewm5/SPRE.R'
 
