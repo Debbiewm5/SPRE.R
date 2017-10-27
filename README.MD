@@ -40,7 +40,7 @@ A step by step series of examples that tell you how to get a development env run
 
 		- To Enter Code in the Windows console type:				
 		- setwd("~/") and Enter  
-		- Dataset <- read.csv("NameOfYourFile.csv") and Enter   
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter   (The data file is in the Documents folder with "test192.R")
 		- source("test192.R") and Enter  
 	
 ### Run R the EASY WAY from the pull down menu in Windows:
@@ -67,8 +67,8 @@ A step by step series of examples that tell you how to get a development env run
 * In Mac:
 	- To Enter Code in the console type:
 		- setwd("~/Documents") 
-		- Dataset <- read.csv("~/Documents/NameOfYourFile.csv") and Enter
-		- source("test191.R")
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter	(The data file is in the Documents folder with "test192.R")
+		- source("test192.R")
 
 ### Run R the EASY WAY from the pull down menu in Mac:
 
