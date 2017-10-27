@@ -38,7 +38,7 @@ A step by step series of examples that tell you how to get a development env run
 	- Mac: setwd("~/Documents")  
 	- Linux: Set directory to 'Downloads' - in a Chromebook
 
-		- To Enter Code manually in the Windows console type:				
+		- To Enter Code MANUALLY in the Windows console type:				
 		- setwd("~/") and Enter  
 		- Dataset <- read.csv("NameOfYourFile.csv") and Enter (The data file is in the Documents folder with "test192.R")
 		- source("test192.R") and Enter  
@@ -54,6 +54,7 @@ A step by step series of examples that tell you how to get a development env run
 		- File -> Open script... -> Dataset
 		- Substitute "NameOfYourFile.csv" into 	Dataset <- read.csv("HEAT_LILLY_Heat.Stat.14_2016.csv")
 		- File -> Save as... -> Dataset
+
 	- The Dataset file is printed in the console
 	- The results from the analysis in 'test192.R' appear in the R console 
 	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the probability values for the Weibull predictive curve are printed on the console.        
