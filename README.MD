@@ -74,7 +74,7 @@ A step by step series of examples that tell you how to get a development env run
 
 ```
 		- Misc -> Change Working Directory... -> Documents
-		- Dataset <- read.csv("NameOfYourFile.csv") and Enter
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter	(This line is typed in the R console)
 		- File -> Source File... -> test192.R  (or Documents - iCloud)
 
 	- The rest of the instructions above are the same.
