@@ -54,10 +54,12 @@ A step by step series of examples that tell you how to get a development env run
 	- - Use the Dataset given in the file downloaded in 'data' for practice, substitute in NameOfYourFile.csv as... 	
 		- Dataset <- read.csv("~/HEAT_LILLY_Heat.Stat.14_2016.csv")
 	- The results from the dataset appear in the R console 
-	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the comparative values for the 	  	  	  Weibull predictive curve are printed on the console.
+	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the comparative values for the           Weibul predictive curve are printed on the console.
 	
-	- There are 2 pages of plots: 1a) The SPRE residuals from the initial OLS linear regression from the client or patients' data; 1b)The SPRE 	  	  	  Q-Q plot often useful to compare the pattern of these responses to another set of responses in SPRE; 1c)Finally the predictive curve for 	  	          that participant.
-	- The 2nd. plot sheet indicates the session number beyond the change point where the participant becomes effectively clinically stable for the 	  	  	  treatment.
+	- There are 2 pages of plots: 1a) The SPRE residuals from the initial OLS linear regression from the client or patients' data; 
+	- 1b)The SPRE Q-Q plot often useful to compare the pattern of these responses to another set of responses in SPRE; 
+	- 1c)Finally the predictive curve for that participant.
+	- The 2nd. plot sheet indicates the session number beyond the change point where the participant becomes effectively clinically stable.
 	- The probability for the Weibull CDF used for prediction is given on the console.
 
 ```
