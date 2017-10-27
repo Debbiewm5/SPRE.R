@@ -31,7 +31,7 @@ A step by step series of examples that tell you how to get a development env run
 * Open the download SPRE.R-master to view files.
 * Open the \data folder, then copy and paste the 2 sample files into your Documents folder together with "Dataset" and "test192.R".  On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
 
-* In Windows, Mac and Linux:
+* In Windows, Mac and Linux to setup MANUALLY:
 	- Open the 'R' program
         - Set the R session to the Documents folder or wherever your data is located:
 	- Windows: setwd("~/")  
@@ -68,7 +68,7 @@ A step by step series of examples that tell you how to get a development env run
 ```
 
 * In Mac:
-	- To Enter Code manually in the console type:
+	- To Enter Code MANUALLY in the console type:
 		- setwd("~/Documents") 
 		- Dataset <- read.csv("NameOfYourFile.csv") and Enter (The data file is in the Documents folder with "test192.R")
 		- source("test192.R")
