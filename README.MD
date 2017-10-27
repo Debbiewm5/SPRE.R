@@ -29,7 +29,7 @@ A step by step series of examples that tell you how to get a development env run
 
 * GOTO www.github.com/Debbiewm5/SPRE.R and download the code files onto your computer.
 * Open the download SPRE.R-master to view files.
-* Open the \data folder, then copy and paste the 2 sample files into your Documents folder. On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
+* Open the \data folder, then copy and paste the 2 sample files into your Documents folder together with "test192.R".  On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
 
 * In Windows, Mac and Linux:
 	- Open the 'R' program
@@ -40,7 +40,7 @@ A step by step series of examples that tell you how to get a development env run
 
 		- To Enter Code in the Windows console type:				
 		- setwd("~/") and Enter  
-		- Dataset <- read.csv("NameOfYourFile.csv") and Enter   (The data file is in the Documents folder with "test192.R")
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter (The data file is in the Documents folder with "test192.R")
 		- source("test192.R") and Enter  
 	
 ### Run R the EASY WAY from the pull down menu in Windows:
@@ -67,7 +67,7 @@ A step by step series of examples that tell you how to get a development env run
 * In Mac:
 	- To Enter Code in the console type:
 		- setwd("~/Documents") 
-		- Dataset <- read.csv("NameOfYourFile.csv") and Enter	(The data file is in the Documents folder with "test192.R")
+		- Dataset <- read.csv("NameOfYourFile.csv") and Enter (The data file is in the Documents folder with "test192.R")
 		- source("test192.R")
 
 ### Run R the EASY WAY from the pull down menu in Mac:
