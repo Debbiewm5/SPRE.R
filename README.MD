@@ -32,16 +32,21 @@ A step by step series of examples that tell you how to get a development env run
 * Open the \data folder, then copy and paste the 2 sample files into your Documents folder. On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
 
 * In Windows:
-	- The simple way is to open the 'R' program
+	- Open the 'R' program
         - Set the R session to the Documents folder or wherever your data is located:
 	- Windows: setwd("~/")  
 	- Mac: setwd("~/Documents")  
 	- Linux: setwd("~/Downloads")
 
-		- In the Windows console type:
-		- setwd("~/") and Enter
+		- To Enter Code in the Windows console type:				
+		- setwd("~/") and Enter  
+		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter   
+		- source("test191.R") and Enter  
+	
+### Run the EASY WAY in Windows:
+		- File -> Change dir... -> Documents
 		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
-		- source("test191.R") and Enter
+		- File -> Source R Code -> test192
 
 	- Use the Dataset given in 'Dataset' for practice, substitute in NameOfYourFile.csv
 	- - Use the Dataset given in the file downloaded in 'data' for practice, substitute in NameOfYourFile.csv as... 	
@@ -54,10 +59,15 @@ A step by step series of examples that tell you how to get a development env run
 	- The probability for the Weibull CDF used for prediction is given on the console.
 
 * In Mac:
-	- In the console type:
+	- To Enter Code in the console type:
 		- setwd("~/Documents") 
 		- Dataset <- read.csv("~/Documents/NameOfYourFile.csv") and Enter
 		- source("test191.R")
+
+### Run the EASY WAY in Mac:
+		- Misc -> Change Working Directory... -> Documents
+		- Dataset <- read.csv("~/NameOfYourFile.csv") and Enter
+		- File -> Source File... -> test192.R  (or Documents - iCloud)
 
 	- The rest of the instructions above are the same.
 
