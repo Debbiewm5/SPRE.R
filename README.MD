@@ -23,22 +23,22 @@ These instructions will get you a copy of the 'R' project up and running on your
 
 * Install the R computer language from www.r-project.org on your machine.
 
-### Installing
+### Installing SPRE.R
 
 A step by step series of examples that tell you how to get a development env running
 
 * GOTO www.github.com/Debbiewm5/SPRE.R and download the code files onto your computer.
 * Open the download SPRE.R-master to view files.
-* Open the \data folder, then copy and paste the 2 sample files into your Documents folder together with "test192.R".  On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
+* Open the \data folder, then copy and paste the 2 sample files into your Documents folder together with "Dataset" and "test192.R".  On linux in a Chromebook, paste into Downloads folder. Note that FData, the y axis, is given as an order statistic to analyse data in SPRE. Some of the data referenced below is naturally ordered.  If not, the FData column is ordered together with the asocciated session number in Excel and saved as '.csv'.  Read about this in the wiki.
 
 * In Windows, Mac and Linux:
 	- Open the 'R' program
         - Set the R session to the Documents folder or wherever your data is located:
 	- Windows: setwd("~/")  
 	- Mac: setwd("~/Documents")  
-	- Linux: setwd("~/Downloads") - in a Chromebook
+	- Linux: Set directory to 'Downloads' - in a Chromebook
 
-		- To Enter Code in the Windows console type:				
+		- To Enter Code manually in the Windows console type:				
 		- setwd("~/") and Enter  
 		- Dataset <- read.csv("NameOfYourFile.csv") and Enter (The data file is in the Documents folder with "test192.R")
 		- source("test192.R") and Enter  
@@ -47,13 +47,15 @@ A step by step series of examples that tell you how to get a development env run
 
 ```
 		- File -> Change dir... -> Documents
-		- Dataset <- read.csv("NameOfYourFile.csv") and Enter  (This line is typed in the R console)
+		- File -> Source R Code -> Dataset
 		- File -> Source R Code -> test192
-
-	- Use the Dataset given in 'Dataset' for practice, substitute in NameOfYourFile.csv
-	- - Use the Dataset given in the file downloaded in 'data' for practice, substitute in NameOfYourFile.csv as... 	
-		- Dataset <- read.csv("HEAT_LILLY_Heat.Stat.14_2016.csv")
-	- The results from the dataset appear in the R console 
+ 
+	- To use your dataset:
+		- File -> Open script... -> Dataset
+		- Substitute "NameOfYourFile.csv" into 	Dataset <- read.csv("HEAT_LILLY_Heat.Stat.14_2016.csv")
+		- File -> Save as... -> Dataset
+	- The Dataset file is printed in the console
+	- The results from the analysis in 'test192.R' appear in the R console 
 	- The resulting 'change point', health predictions from the change point, the effective clinical stability and the probability values for the Weibull predictive curve are printed on the console.        
 	
 	- There are 2 pages of plots: 1a) The SPRE residuals from the initial OLS linear regression from the client or patients' data; 
@@ -65,7 +67,7 @@ A step by step series of examples that tell you how to get a development env run
 ```
 
 * In Mac:
-	- To Enter Code in the console type:
+	- To Enter Code manually in the console type:
 		- setwd("~/Documents") 
 		- Dataset <- read.csv("NameOfYourFile.csv") and Enter (The data file is in the Documents folder with "test192.R")
 		- source("test192.R")
@@ -74,7 +76,7 @@ A step by step series of examples that tell you how to get a development env run
 
 ```
 		- Misc -> Change Working Directory... -> Documents
-		- Dataset <- read.csv("NameOfYourFile.csv") and Enter	(This line is typed in the R console)
+		- File -> Source File... -> Dataset
 		- File -> Source File... -> test192.R  (or Documents - iCloud)
 
 	- The rest of the instructions above are the same.
@@ -174,19 +176,19 @@ For the first run of the data on your computer, click 'Windows' and last plot nu
 Start with plots 1a), 1b), and 1c) given in plot 2, then view plot 3 to analyse the data in R.
 
 ## Saving and Comparing Participant Plot Data
-### Saving R Plots
-Display the plot and then goto File. Then click 'save as' for options. 
+### Saving R Plots and Analytic Results
+Display the plot and then goto File. Then click 'save as' for options. In the console, click the print icon to print analysis.
 ### Comparing Participant Plot Data
 	* For only one participant, save the 2 plots and then exit R. This will clear plot data.
 	* To compare plots, do not exit R but start a new analysis in the console. Then, for example, 4 plots can be directly compared.
 		- In the Windows pull down menu:
 		- File -> Change dir... -> Documents
-		- Dataset <- read.csv("NameOfFirstFile.csv") and Enter  (This line is typed in the R console)
+		- File -> Source R Code -> Dataset (Dataset contains first file.)
 		- File -> Source R Code -> test192
 
 		- In the Windows pull down menu:
 		- File -> Change dir... -> Documents
-		- Dataset <- read.csv("NameOfSecondFile.csv") and Enter  (This line is typed in the R console)
+		- File -> Source R Code -> Dataset (Dataset contains second file.)
 		- File -> Source R Code -> test192
 	* All 4 plots will be available for comparison in 'Windows'.
 
